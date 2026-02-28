@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     int hours;
     char gender;
     int salary = 0;
-
     printf("Enter hours worked: ");
     scanf("%d", &hours);
-
     printf("Enter gender (M/F): ");
     scanf(" %c", &gender);
 
